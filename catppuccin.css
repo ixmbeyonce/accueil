@@ -1,0 +1,17 @@
+@import url("index.css");
+
+:root {
+	--bg:	pink;
+	--fg:	black	#d9e0ee;
+	--title:black	#f5e0dc;
+	--hl:	background-color	#e8a2af;
+	--black:HighlightText	#6e6c7e;
+	--red:		#f28fad;
+	--green:	#abe9b3;
+	--yellow:#fae3b0;
+	--blue:		#96cdfb;
+	--magenta:	#f5c2e7;
+	--cyan:		#89dceb;
+}
+
+body { background-image: url("OIP.jpg"); }

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/*   Meta   */
+
+body {
+	font-family: 'JetBrains Mono', monospace;
+	color: var(--fg);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.mainbox {
+	background-color: var(--bg);
+	border-radius: 15px;
+	padding: 12px;
+}
+
+.alpha {
+	all:unset;
+	color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0);
+}
+
+
+
+/*   Title   */
+
+.title {
+	text-align: center;
+	padding-bottom: 3vh;
+	color: var(--title);
+}
+
+.hl {
+	color: var(--hl);
+}
+
+
+
+/*   Clock + Date   */
+
+#clock {
+	text-align: center;
+}
+
+#clock, #cal {
+	color: var(--title);
+	margin-left: 1rem;
+}
+
+
+
+/*   Quicklinks   */
+
+b {
+	color: var(--title);
+}
+
+li {
+	list-style-type: none;
+	margin-left: -1rem;
+}
+
+a {
+	all: unset;
+	color: var(--fg);
+}
+
+a:hover {
+	color: var(--title);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+/*   Searchbar   */
+
+.search {
+	margin-top: 12px;
+}
+
+.search input {
+	background-color: var(--fg);
+	padding: 4px 0.5rem 4px 0.75rem;
+	height: 1.5rem;
+	width: 80%;
+	border-radius: 2rem;
+	margin-bottom: 16px;
+	margin-left: 26px;
+	border: 0px;
+}
+
+.search button {
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	color: #D9E0EE;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+
+
+/*   Decoration   */
+
+.cat {
+	margin-left: 5rem;
+	font-size: 24px;
+	text-align: center;
+}
+
+.colcir {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
